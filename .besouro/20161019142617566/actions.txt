@@ -68,3 +68,6 @@ RefactoringAction 1476877501108 TestPlanetExplorer.java RENAME test_execute_ECom
 RefactoringAction 1476877502622 TestPlanetExplorer.java RENAME test_execute_EmpCommand()=>void test_execute_EmptyCommand() METHOD
 RefactoringAction 1476877516148 TestPlanetExplorer.java ADD PlanetExplorer pe FIELD
 EditAction 1476877687227 TestPlanetExplorer.java 547 2 4 3
+UnitTestCaseAction 1476877688667 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877688667 TestPlanetExplorer.java FAIL
+EditAction 1476877734295 PlanetExplorer.java 1419 4 4 0
