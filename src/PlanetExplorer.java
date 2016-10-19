@@ -38,31 +38,10 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
-		switch (command){
-		
-		case "r":
-			turn(command);
-			return(getStatus());
-
-		case"l":
-			turn(command);
+			calculate(command);
 			return(getStatus());
 			
-		case "f":
-		{
-			setPosition(posx,posy+1,facing.toString());
-			return(getStatus());			
-		}		
-		case "b":
-		{
-			setPosition(posx-1,posy,facing.toString());
-			return(getStatus());			
-		}		
-		
-		default:
-			return("0,0,N");
-		}
+		}	
 	}
 	
 	public int getGridx(){
@@ -72,6 +51,39 @@ public class PlanetExplorer {
 	public int getGridy(){
 		return this.gridy;
 	}
+	
+	public void calculate(String command)
+	{
+		for (int i=0; i< command.length();i++)
+		{
+			char cm=command.charAt(i);
+			switch (cm)
+			{
+				
+				case 'r':
+				{
+					turn("r");break;
+				}
+				case'l':
+				{
+					turn("l");break;
+				}	
+				case 'f':
+				{
+					setPosition(posx,posy+1,facing.toString());break;
+								
+				}		
+				case 'b':
+				{
+					setPosition(posx-1,posy,facing.toString());break;
+				}		
+				
+				default: break;
+			}
+		}
+		return;
+	}
+	
 	
 	public void setPosition(int x,int y,String f)
 	{
@@ -138,7 +150,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		if (dir == 'r')
+		if (dir == "r")
 		{			
 			switch  (facing)
 			{
