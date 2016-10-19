@@ -34,11 +34,11 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if (command == "r")
-			return "posx,posy,E";
+			return posx+","+posy+",E";
 		if (command == "l")
-			return "posx,posy,W";
+			return posx+","+posy+",W";
 		
-		return ("posx,posy,N");
+		return (posx+","+posy+",N");
 	}
 	
 	public int getGridx(){
