@@ -227,3 +227,23 @@ RefactoringAction 1476882632605 PlanetExplorer.java RENAME calculate=>void calcu
 RefactoringAction 1476882651626 PlanetExplorer.java RENAME calculate()=>void calculate(string) METHOD
 RefactoringAction 1476882744331 PlanetExplorer.java RENAME calculate(string)=>void calculate(String) METHOD
 EditAction 1476882918086 PlanetExplorer.java 3201 8 14 0
+CompilationAction 1476882918318 PlanetExplorer.java
+UnitTestCaseAction 1476882921933 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882921933 TestPlanetExplorer.java FAIL
+CompilationAction 1476882946098 PlanetExplorer.java
+UnitTestCaseAction 1476882947757 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882947758 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883168183 PlanetExplorer.java ADD void setPosition(int, int, String)/2 METHOD
+RefactoringAction 1476883174689 PlanetExplorer.java RENAME setPosition(int, int, String)/2=>int x FIELD
+RefactoringAction 1476883180698 PlanetExplorer.java RENAME forward(int, int, String)=>void forward(nt, int, String) METHOD
+RefactoringAction 1476883186202 PlanetExplorer.java RENAME forward(nt, int, String)=>void forward(String) METHOD
+RefactoringAction 1476883190706 PlanetExplorer.java RENAME forward(String)=>void forward() METHOD
+RefactoringAction 1476883198237 PlanetExplorer.java RENAME forward()=>void forward(eDirection) METHOD
+RefactoringAction 1476883201241 PlanetExplorer.java RENAME forward(eDirection)=>void forward() METHOD
+RefactoringAction 1476883203249 PlanetExplorer.java RENAME forward()=>void forward(eDirection) METHOD
+RefactoringAction 1476883349447 PlanetExplorer.java ADD void forward(eDirection)/2 METHOD
+RefactoringAction 1476883360954 PlanetExplorer.java RENAME forward(eDirection)/2=>eDirection dir FIELD
+RefactoringAction 1476883364464 PlanetExplorer.java RENAME BACK(eDirection)=>eDirection dir FIELD
+RefactoringAction 1476883367473 PlanetExplorer.java RENAME ba(eDirection)=>void backwo(eDirection) METHOD
+RefactoringAction 1476883369977 PlanetExplorer.java RENAME backwo(eDirection)=>void backward(eDirection) METHOD
+EditAction 1476883407112 PlanetExplorer.java 3572 10 16 0

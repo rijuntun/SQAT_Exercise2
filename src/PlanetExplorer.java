@@ -42,7 +42,7 @@ public class PlanetExplorer {
 			return(getStatus());
 			
 		}	
-	}
+	
 	
 	public int getGridx(){
 		return this.gridx;
@@ -111,6 +111,44 @@ public class PlanetExplorer {
 				facing=eDirection.EAST;
 				break;
 			}
+			
+		}
+	}
+	
+	public void forward(eDirection dir)
+	{
+		switch (dir){
+			case NORTH:
+			case SOUTH:
+			{
+				posx++;
+				break;
+			}
+			case EAST:
+			case WEST:
+			{
+				posy++;
+			}
+			
+			
+		}
+	}
+
+	public void backward(eDirection dir)
+	{
+		switch (dir){
+			case NORTH:
+			case SOUTH:
+			{
+				posx--;
+				break;
+			}
+			case EAST:
+			case WEST:
+			{
+				posy--;
+			}
+			
 			
 		}
 	}
