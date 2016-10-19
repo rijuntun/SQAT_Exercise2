@@ -37,8 +37,13 @@ public class PlanetExplorer {
 			return posx+","+posy+",E";
 		if (command == "l")
 			return posx+","+posy+",W";
+		if (command =="f")
+		{
+			setPosition(posx,posy+1);
+			return(getStatus());
+			
+		}						
 		
-		return (posx+","+posy+",N");
 	}
 	
 	public int getGridx(){
@@ -48,4 +53,16 @@ public class PlanetExplorer {
 	public int getGridy(){
 		return this.gridy;
 	}
+	
+	public void setPosition(int x,int y)
+	{
+		posx=x;
+		posy=y;
+	}
+	
+	public String getStatus()
+	{
+		return posx+","+posy+","+facing;
+	}
+	
 }
