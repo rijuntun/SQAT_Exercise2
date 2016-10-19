@@ -39,7 +39,7 @@ public class PlanetExplorer {
 			return posx+","+posy+",W";
 		if (command =="f")
 		{
-			setPosition(posx,posy+1);
+			setPosition(posx,posy+1,facing);
 			return(getStatus());
 			
 		}				
