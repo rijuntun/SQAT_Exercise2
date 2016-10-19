@@ -247,3 +247,10 @@ RefactoringAction 1476883364464 PlanetExplorer.java RENAME BACK(eDirection)=>eDi
 RefactoringAction 1476883367473 PlanetExplorer.java RENAME ba(eDirection)=>void backwo(eDirection) METHOD
 RefactoringAction 1476883369977 PlanetExplorer.java RENAME backwo(eDirection)=>void backward(eDirection) METHOD
 EditAction 1476883407112 PlanetExplorer.java 3572 10 16 0
+UnitTestCaseAction 1476883408171 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883408172 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883410266 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883410266 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883458564 PlanetExplorer.java RENAME forward(eDirection)=>void forward() METHOD
+RefactoringAction 1476883526638 PlanetExplorer.java RENAME backward(eDirection)=>void backward() METHOD
+EditAction 1476883528419 PlanetExplorer.java 3599 10 16 0

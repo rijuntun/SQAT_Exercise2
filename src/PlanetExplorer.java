@@ -70,12 +70,14 @@ public class PlanetExplorer {
 				}	
 				case 'f':
 				{
-					setPosition(posx,posy+1,facing.toString());break;
+					//setPosition(posx,posy+1,facing.toString());break;
+					forward();break;
 								
 				}		
 				case 'b':
 				{
-					setPosition(posx-1,posy,facing.toString());break;
+					//setPosition(posx-1,posy,facing.toString());break;
+					backward();break;
 				}		
 				
 				default: break;
@@ -115,9 +117,9 @@ public class PlanetExplorer {
 		}
 	}
 	
-	public void forward(eDirection dir)
+	public void forward()
 	{
-		switch (dir){
+		switch (facing){
 			case NORTH:
 			case SOUTH:
 			{
@@ -134,9 +136,9 @@ public class PlanetExplorer {
 		}
 	}
 
-	public void backward(eDirection dir)
+	public void backward()
 	{
-		switch (dir){
+		switch (facing){
 			case NORTH:
 			case SOUTH:
 			{
