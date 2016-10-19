@@ -54,3 +54,6 @@ RefactoringAction 1476877328106 PlanetExplorer.java ADD int getGridx()/2 METHOD
 RefactoringAction 1476877330619 PlanetExplorer.java RENAME getGridx()/2=>int getGrid() METHOD
 RefactoringAction 1476877331632 PlanetExplorer.java RENAME getGrid()=>int getGridy() METHOD
 EditAction 1476877345155 PlanetExplorer.java 1417 4 5 0
+UnitTestCaseAction 1476877345439 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877345440 TestPlanetExplorer.java OK
+EditAction 1476877375248 TestPlanetExplorer.java 382 1 3 2
