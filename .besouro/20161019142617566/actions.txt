@@ -145,3 +145,10 @@ EditAction 1476879650332 TestPlanetExplorer.java 1071 5 11 6
 UnitTestCaseAction 1476879651784 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879651784 TestPlanetExplorer.java FAIL
 EditAction 1476879675092 TestPlanetExplorer.java 1071 5 11 6
+UnitTestCaseAction 1476879676505 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879676505 TestPlanetExplorer.java OK
+RefactoringAction 1476879692654 TestPlanetExplorer.java ADD void test_execute_CommandForward()/2 METHOD
+RefactoringAction 1476879697666 TestPlanetExplorer.java RENAME test_execute_CommandForward()/2=>void test_execute_Commandward() METHOD
+RefactoringAction 1476879698677 TestPlanetExplorer.java RENAME test_execute_Commandward()=>void test_execute_CommandBward() METHOD
+RefactoringAction 1476879700188 TestPlanetExplorer.java RENAME test_execute_CommandBward()=>void test_execute_CommandBackward() METHOD
+EditAction 1476879779838 TestPlanetExplorer.java 1264 6 14 7
