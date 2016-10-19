@@ -4,7 +4,7 @@
 // Finish time:
 
 public class PlanetExplorer {
-	int x,y;
+	int gridx,gridy =0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -14,8 +14,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		x=x;
-		y=y;
+		gridx=x;
+		gridy=y;
 		
 	}
 	
@@ -32,5 +32,13 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+	
+	public int getGridx(){
+		return this.gridx;
+	}
+
+	public int getGridy(){
+		return this.gridy;
 	}
 }
