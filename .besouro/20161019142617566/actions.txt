@@ -93,3 +93,6 @@ RefactoringAction 1476878166405 TestPlanetExplorer.java ADD void test_execute_Co
 RefactoringAction 1476878174930 TestPlanetExplorer.java RENAME test_execute_CommandRight()/2=>void test_execute_Command() METHOD
 RefactoringAction 1476878176945 TestPlanetExplorer.java RENAME test_execute_Command()=>void test_execute_CommandLeft() METHOD
 EditAction 1476878193390 TestPlanetExplorer.java 873 4 8 5
+UnitTestCaseAction 1476878195649 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878195650 TestPlanetExplorer.java FAIL
+EditAction 1476878224858 PlanetExplorer.java 1504 4 7 0

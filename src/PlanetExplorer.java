@@ -32,6 +32,8 @@ public class PlanetExplorer {
 		 */
 		if (command == "r")
 			return "0,0,E";
+		if (command == "l")
+			return "0,0,W";
 		
 		return ("0,0,N");
 	}
