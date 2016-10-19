@@ -71,3 +71,16 @@ EditAction 1476877687227 TestPlanetExplorer.java 547 2 4 3
 UnitTestCaseAction 1476877688667 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877688667 TestPlanetExplorer.java FAIL
 EditAction 1476877734295 PlanetExplorer.java 1419 4 4 0
+CompilationAction 1476877734382 PlanetExplorer.java
+UnitTestCaseAction 1476877740485 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877740486 TestPlanetExplorer.java FAIL
+CompilationAction 1476877761684 PlanetExplorer.java
+UnitTestCaseAction 1476877763057 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877763057 TestPlanetExplorer.java OK
+RefactoringAction 1476877886217 TestPlanetExplorer.java ADD void test_execute_EmptyCommand()/2 METHOD
+RefactoringAction 1476877891730 TestPlanetExplorer.java RENAME test_execute_EmptyCommand()/2=>void test_execute_Command() METHOD
+RefactoringAction 1476877896245 TestPlanetExplorer.java RENAME test_execute_Command()=>void test_execute_CommandLeft() METHOD
+RefactoringAction 1476877949275 TestPlanetExplorer.java RENAME test_execute_CommandLeft()=>void test_execute_Command() METHOD
+RefactoringAction 1476877950287 TestPlanetExplorer.java RENAME test_execute_Command()=>void test_execute_CommandRi() METHOD
+RefactoringAction 1476877951303 TestPlanetExplorer.java RENAME test_execute_CommandRi()=>void test_execute_CommandRight() METHOD
+EditAction 1476878008066 TestPlanetExplorer.java 710 3 6 4

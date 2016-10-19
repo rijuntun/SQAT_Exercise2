@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return "0,0,N;
+		return ("0,0,N");
 	}
 	
 	public int getGridx(){
