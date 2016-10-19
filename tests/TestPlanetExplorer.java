@@ -23,6 +23,12 @@ public class TestPlanetExplorer {
 		String status = pe.executeCommand("r");
 		assertEquals("Status should be 0,0 facing east","0,0,E",status);
 	}
+	
+	@Test
+	public void test_execute_CommandLeft() {
+		String status = pe.executeCommand("l");
+		assertEquals("Status should be 0,0 facing west","0,0,W",status);
+	}
 
 	/*
 	@Test
