@@ -55,10 +55,11 @@ public class PlanetExplorer {
 		return this.gridy;
 	}
 	
-	public void setPosition(int x,int y)
+	public void setPosition(int x,int y,String f)
 	{
 		posx=x;
 		posy=y;
+		facing=f;
 	}
 	
 	public String getStatus()

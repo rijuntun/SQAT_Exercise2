@@ -152,3 +152,8 @@ RefactoringAction 1476879697666 TestPlanetExplorer.java RENAME test_execute_Comm
 RefactoringAction 1476879698677 TestPlanetExplorer.java RENAME test_execute_Commandward()=>void test_execute_CommandBward() METHOD
 RefactoringAction 1476879700188 TestPlanetExplorer.java RENAME test_execute_CommandBward()=>void test_execute_CommandBackward() METHOD
 EditAction 1476879779838 TestPlanetExplorer.java 1264 6 14 7
+CompilationAction 1476879779927 TestPlanetExplorer.java
+UnitTestCaseAction 1476879785507 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879785507 TestPlanetExplorer.java FAIL
+RefactoringAction 1476879799468 PlanetExplorer.java RENAME setPosition(int, int)=>void setPosition(int, int, String) METHOD
+EditAction 1476879834152 PlanetExplorer.java 1818 6 12 0
