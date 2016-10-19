@@ -47,6 +47,13 @@ public class TestPlanetExplorer {
 		assertEquals("Status should be 4,8 facing East","4,8,E",status);
 	}
 
+	@Test
+	public void test_execute_Commandffrff() {
+		
+		String status = pe.executeCommand("ffrff");
+		assertEquals("Status should be 2,2 facing East","2,2,E",status);
+	}
+	
 	/*
 	@Test
 	public void test_executeCommand() {
