@@ -37,7 +37,7 @@ public class TestPlanetExplorer {
 	public void test_execute_CommandForward() {
 		pe.setPosition(7,6);
 		String status = pe.executeCommand("f");
-		assertEquals("Status should be 7,7 facing North","7,7,W",status);
+		assertEquals("Status should be 7,7 facing North","7,7,N",status);
 	}
 
 	/*
