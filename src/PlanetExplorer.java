@@ -62,7 +62,7 @@ public class PlanetExplorer {
 	
 	public String getStatus()
 	{
-		return posx+","+posy+","+facing;
+		return (posx +","+posy+","+facing);
 	}
 	
 }

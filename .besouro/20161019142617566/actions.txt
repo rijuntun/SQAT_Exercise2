@@ -134,3 +134,5 @@ RefactoringAction 1476879319437 PlanetExplorer.java RENAME turn=>void turn() MET
 RefactoringAction 1476879326962 PlanetExplorer.java RENAME turn()=>void turn(string) METHOD
 RefactoringAction 1476879348033 PlanetExplorer.java REMOVE turn(string) METHOD
 EditAction 1476879422739 PlanetExplorer.java 1777 6 10 0
+CompilationAction 1476879422839 PlanetExplorer.java
+EditAction 1476879528650 PlanetExplorer.java 1780 6 10 0
