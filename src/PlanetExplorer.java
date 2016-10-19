@@ -33,18 +33,29 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if (command == "r")
+		
+		switch (command){
+		
+		case "r":
 			return posx+","+posy+",E";
-		if (command == "l")
+			
+		case"l":
 			return posx+","+posy+",W";
-		if (command =="f")
+			
+		case "f":
 		{
 			setPosition(posx,posy+1,facing);
-			return(getStatus());
-			
-		}				
-		return("0,0,N");
+			return(getStatus());			
+		}		
+		case "b":
+		{
+			setPosition(posx-1,posy,facing);
+			return(getStatus());			
+		}		
 		
+		default:
+			return("0,0,N");
+		}
 	}
 	
 	public int getGridx(){
