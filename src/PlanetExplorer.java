@@ -42,7 +42,8 @@ public class PlanetExplorer {
 			setPosition(posx,posy+1);
 			return(getStatus());
 			
-		}						
+		}				
+		return("0,0,N");
 		
 	}
 	
