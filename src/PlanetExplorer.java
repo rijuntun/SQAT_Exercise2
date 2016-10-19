@@ -4,10 +4,15 @@
 // Finish time:
 
 public class PlanetExplorer {
+	public enum eDirection
+	{
+		NORTH,WEST,SOUTH,EAST
+	}
 	int gridx,gridy =0;
 	int posx,posy=0;
-	String facing="N";
+	eDirection facing=eDirection.NORTH;
 	
+			
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -70,7 +75,30 @@ public class PlanetExplorer {
 	{
 		posx=x;
 		posy=y;
-		facing=f;
+		switch (f){
+			case "N":
+			{
+				facing=eDirection.NORTH;
+				break;
+			}
+			case "W":
+			{
+				facing=eDirection.WEST;
+				break;
+			}
+			
+			case "S":
+			{
+				facing=eDirection.SOUTH;
+				break;
+			}
+			case "E":
+			{
+				facing=eDirection.EAST;
+				break;
+			}
+			
+		}
 	}
 	
 	public String getStatus()
@@ -78,4 +106,58 @@ public class PlanetExplorer {
 		return (posx +","+posy+","+facing);
 	}
 	
+	public void turn(String dir)
+	{
+		
+		if(dir == "r")
+		{
+			switch(facing)
+			{
+				case NORTH:
+				{
+					facing=eDirection.WEST;
+					break;
+				}	
+				case WEST:
+				{
+					facing=eDirection.SOUTH;
+					break;
+				}	
+				case SOUTH:
+				{
+					facing=eDirection.EAST;
+					break;
+				}	
+				case EAST:
+				{
+					facing=eDirection.NORTH;
+					break;
+				}	
+			}
+		}
+		else
+			switch  (facing)
+			{
+				case NORTH:
+				{
+					facing=eDirection.EAST;
+					break;
+				}	
+				case EAST:
+				{
+					facing=eDirection.SOUTH;
+					break;
+				}	
+				case SOUTH:
+				{
+					facing=eDirection.WEST;
+					break;
+				}	
+				case WEST:
+				{
+					facing=eDirection.NORTH;
+					break;
+				}	
+			}
+	}
 }

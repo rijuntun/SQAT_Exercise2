@@ -166,3 +166,31 @@ EditAction 1476879879923 TestPlanetExplorer.java 1268 6 14 7
 UnitTestCaseAction 1476879881201 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879881202 TestPlanetExplorer.java FAIL
 EditAction 1476880050436 PlanetExplorer.java 1927 6 9 0
+UnitTestCaseAction 1476880053254 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880053254 TestPlanetExplorer.java OK
+RefactoringAction 1476880210706 PlanetExplorer.java ADD void turn FIELD
+RefactoringAction 1476880213719 PlanetExplorer.java RENAME turn=>void turn() METHOD
+RefactoringAction 1476880221242 PlanetExplorer.java RENAME turn()=>void turn(sting) METHOD
+RefactoringAction 1476880235802 PlanetExplorer.java RENAME turn(sting)=>void turn(ting) METHOD
+RefactoringAction 1476880237321 PlanetExplorer.java RENAME turn(ting)=>void turn(Sting) METHOD
+RefactoringAction 1476880240846 PlanetExplorer.java RENAME turn(Sting)=>void turn(String) METHOD
+RefactoringAction 1476880368721 PlanetExplorer.java ADD Enum facing/2 FIELD
+RefactoringAction 1476880370738 PlanetExplorer.java RENAME facing/2=>Enum facin FIELD
+RefactoringAction 1476880371750 PlanetExplorer.java RENAME facin=>Enum facie FIELD
+RefactoringAction 1476880373264 PlanetExplorer.java RENAME facie=>Enum f FIELD
+RefactoringAction 1476880375277 PlanetExplorer.java RENAME f=>Enum dire FIELD
+RefactoringAction 1476880377791 PlanetExplorer.java RENAME dire=>Enum direction FIELD
+RefactoringAction 1476880392340 PlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1476880456902 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>enum e null
+RefactoringAction 1476880458420 PlanetExplorer.java RENAME e=>enum eDire null
+RefactoringAction 1476880459938 PlanetExplorer.java RENAME eDire=>enum eDirection null
+RefactoringAction 1476880507580 PlanetExplorer.java ADD eDirection N FIELD
+RefactoringAction 1476880509595 PlanetExplorer.java RENAME N=>eDirection NO FIELD
+RefactoringAction 1476880511110 PlanetExplorer.java RENAME NO=>eDirection NORTH FIELD
+RefactoringAction 1476880518139 PlanetExplorer.java ADD eDirection W FIELD
+RefactoringAction 1476880519154 PlanetExplorer.java RENAME W=>eDirection WEST FIELD
+RefactoringAction 1476880520671 PlanetExplorer.java ADD eDirection S FIELD
+RefactoringAction 1476880524687 PlanetExplorer.java RENAME S=>eDirection SOUTH FIELD
+RefactoringAction 1476880553272 PlanetExplorer.java REMOVE facing FIELD
+RefactoringAction 1476880555294 PlanetExplorer.java ADD D facing FIELD
+EditAction 1476881408650 PlanetExplorer.java 2955 7 10 0
