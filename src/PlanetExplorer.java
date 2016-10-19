@@ -42,6 +42,9 @@ public class PlanetExplorer {
 		switch (command){
 		
 		case "r":
+			turn(command);
+			return(getStatus());
+
 		case"l":
 			turn(command);
 			return(getStatus());
