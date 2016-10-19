@@ -42,10 +42,9 @@ public class PlanetExplorer {
 		switch (command){
 		
 		case "r":
-			return posx+","+posy+",E";
-			
 		case"l":
-			return posx+","+posy+",W";
+			turn(command);
+			return(getStatus());
 			
 		case "f":
 		{

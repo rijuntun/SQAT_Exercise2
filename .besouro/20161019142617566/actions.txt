@@ -209,3 +209,6 @@ RefactoringAction 1476881797127 TestPlanetExplorer.java RENAME test_execute_Comm
 RefactoringAction 1476881798135 TestPlanetExplorer.java RENAME test_execute_Commandffr()=>void test_execute_Commandffrf() METHOD
 RefactoringAction 1476881799149 TestPlanetExplorer.java RENAME test_execute_Commandffrf()=>void test_execute_Commandffrff() METHOD
 EditAction 1476881849255 TestPlanetExplorer.java 1439 7 16 8
+UnitTestCaseAction 1476881850846 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881850846 TestPlanetExplorer.java FAIL
+EditAction 1476881990661 PlanetExplorer.java 2981 7 10 0
