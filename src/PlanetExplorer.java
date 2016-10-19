@@ -5,6 +5,8 @@
 
 public class PlanetExplorer {
 	int gridx,gridy =0;
+	int posx,posy=0;
+	String facing="N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -16,6 +18,7 @@ public class PlanetExplorer {
 	 */
 		gridx=x;
 		gridy=y;
+		
 		
 	}
 	
@@ -31,11 +34,11 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if (command == "r")
-			return "0,0,E";
+			return "posx,posy,E";
 		if (command == "l")
-			return "0,0,W";
+			return "posx,posy,W";
 		
-		return ("0,0,N");
+		return ("posx,posy,N");
 	}
 	
 	public int getGridx(){

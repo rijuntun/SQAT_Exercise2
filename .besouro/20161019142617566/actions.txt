@@ -104,3 +104,13 @@ RefactoringAction 1476878319584 TestPlanetExplorer.java RENAME test_execute_Comm
 RefactoringAction 1476878321098 TestPlanetExplorer.java RENAME test_execute_CommandForwardt()=>void test_execute_CommandForward() METHOD
 RefactoringAction 1476878456132 TestPlanetExplorer.java REMOVE pe FIELD
 EditAction 1476878552722 TestPlanetExplorer.java 1243 5 15 6
+UnitTestCaseAction 1476878553014 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878553014 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878705817 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1476878706829 PlanetExplorer.java RENAME pos=>int posx FIELD
+RefactoringAction 1476878708842 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1476878710356 PlanetExplorer.java RENAME pos=>int posy FIELD
+RefactoringAction 1476878719892 PlanetExplorer.java ADD string f FIELD
+RefactoringAction 1476878721404 PlanetExplorer.java RENAME f=>string faci FIELD
+RefactoringAction 1476878722918 PlanetExplorer.java RENAME faci=>string facing FIELD
+EditAction 1476878810636 PlanetExplorer.java 1563 4 7 0
