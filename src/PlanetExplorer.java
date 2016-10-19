@@ -123,13 +123,14 @@ public class PlanetExplorer {
 			case NORTH:
 			case SOUTH:
 			{
-				posx++;
+				posy++;
 				break;
 			}
 			case EAST:
 			case WEST:
 			{
 				posy++;
+				break;
 			}
 			
 			
@@ -142,13 +143,14 @@ public class PlanetExplorer {
 			case NORTH:
 			case SOUTH:
 			{
-				posx--;
+				posy--;
 				break;
 			}
 			case EAST:
 			case WEST:
 			{
 				posy--;
+				break;
 			}
 			
 			
