@@ -96,3 +96,11 @@ EditAction 1476878193390 TestPlanetExplorer.java 873 4 8 5
 UnitTestCaseAction 1476878195649 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878195650 TestPlanetExplorer.java FAIL
 EditAction 1476878224858 PlanetExplorer.java 1504 4 7 0
+UnitTestCaseAction 1476878227775 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878227775 TestPlanetExplorer.java OK
+RefactoringAction 1476878310058 TestPlanetExplorer.java ADD void test_execute_CommandLeft()/2 METHOD
+RefactoringAction 1476878318070 TestPlanetExplorer.java RENAME test_execute_CommandLeft()/2=>void test_execute_CommandForwardLeft() METHOD
+RefactoringAction 1476878319584 TestPlanetExplorer.java RENAME test_execute_CommandForwardLeft()=>void test_execute_CommandForwardt() METHOD
+RefactoringAction 1476878321098 TestPlanetExplorer.java RENAME test_execute_CommandForwardt()=>void test_execute_CommandForward() METHOD
+RefactoringAction 1476878456132 TestPlanetExplorer.java REMOVE pe FIELD
+EditAction 1476878552722 TestPlanetExplorer.java 1243 5 15 6
