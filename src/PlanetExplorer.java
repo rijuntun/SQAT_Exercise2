@@ -49,12 +49,12 @@ public class PlanetExplorer {
 			
 		case "f":
 		{
-			setPosition(posx,posy+1,facing);
+			setPosition(posx,posy+1,facing.toString());
 			return(getStatus());			
 		}		
 		case "b":
 		{
-			setPosition(posx-1,posy,facing);
+			setPosition(posx-1,posy,facing.toString());
 			return(getStatus());			
 		}		
 		
@@ -103,7 +103,7 @@ public class PlanetExplorer {
 	
 	public String getStatus()
 	{
-		return (posx +","+posy+","+facing);
+		return (posx +","+posy+","+facing.toString().substring(0,1));
 	}
 	
 	public void turn(String dir)
