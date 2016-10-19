@@ -111,7 +111,7 @@ public class PlanetExplorer {
 	public void turn(String dir)
 	{
 		
-		if(dir == "r")
+		if(dir == "l")
 		{
 			switch(facing)
 			{
@@ -137,7 +137,9 @@ public class PlanetExplorer {
 				}	
 			}
 		}
-		else
+		
+		if (dir == 'r')
+		{			
 			switch  (facing)
 			{
 				case NORTH:
@@ -161,5 +163,6 @@ public class PlanetExplorer {
 					break;
 				}	
 			}
+		}
 	}
 }
